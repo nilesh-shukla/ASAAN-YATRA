@@ -29,9 +29,9 @@ body {
 h1.website-name {
     font-family: 'Montserrat', sans-serif;
     color: #f5415f;
-    border-bottom: 2px solid #f5415f; /* Thinner underline */
-    display: inline-block; /* Needed for the border-bottom to only affect the text width */
-    padding-bottom: 5px; /* Optional: Adjust spacing between text and underline */
+    border-bottom: 2px solid #f5415f;
+    display: inline-block; 
+    padding-bottom: 5px; 
 }
 
 .form-group {
