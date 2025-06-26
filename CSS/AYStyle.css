@@ -649,3 +649,414 @@ div.Contact
 }
 /********************SIGNUP PAGE**********************/
 /********************MEDIA QUERY**********************/
+
+/* Desktop Large (1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Desktop (992px to 1199px) */
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Tablet (768px to 991px) */
+@media (max-width: 991px) {
+    .container {
+        width: 90%;
+    }
+    
+    /* Navigation adjustments */
+    .Nav {
+        padding: 0.5rem;
+        height: auto;
+    }
+    
+    .Nav #Option {
+        float: none;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    li.Options1 {
+        display: block;
+        padding: 0.5rem;
+        text-align: center;
+    }
+    
+    img#LOGO-head {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    /* Header content */
+    h1.HEAD {
+        font-size: 2.2rem;
+        margin-top: 50px;
+    }
+    
+    p.HEAD-DESCRIBE {
+        font-size: 1.2rem;
+    }
+    
+    /* Examples section */
+    .Row1 .Image-box, .Row2 .Describe-box, .Row3 .Image-box,
+    .Row2 .Image-box, .Row1 .Describe-box, .Row3 .Describe-box {
+        float: none;
+        width: 100%;
+    }
+    
+    .Row {
+        height: auto;
+        margin-bottom: 3rem;
+    }
+    
+    .Row .Describe-box {
+        padding: 15px;
+    }
+    
+    /* Features section */
+    div.Service, div.Price, div.AI {
+        float: none;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    div.Last-Content {
+        height: auto;
+        padding: 2rem;
+    }
+    
+    /* About page adjustments */
+    .FeatRow .Column1, .FeatRow .Column2 {
+        float: none;
+        width: 100%;
+    }
+    
+    .AboutInfo {
+        float: none;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .Info2 {
+        border-right: none;
+        border-left: none;
+        border-top: 1px solid #28353c;
+        border-bottom: 1px solid #28353c;
+    }
+    
+    /* Contact page adjustments */
+    div.ContactCol {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    div.Address, div.Contact {
+        float: none;
+        width: 100%;
+    }
+    
+    div.Contact {
+        height: auto;
+    }
+}
+
+/* Mobile Large (576px to 767px) */
+@media (max-width: 767px) {
+    html {
+        font-size: 55%;
+    }
+    
+    .container {
+        width: 95%;
+    }
+    
+    /* Header adjustments */
+    .header1 {
+        height: 100vh;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Nav {
+        text-align: center;
+        flex-shrink: 0;
+    }
+    
+    .Nav #Option {
+        margin-top: 0.5rem;
+    }
+    
+    li.Options1 {
+        padding: 0.3rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Header content */
+    .header-content {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        padding: 2rem 1rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 120px);
+    }
+    
+    h1.HEAD {
+        font-size: 1.8rem;
+        margin-top: 0;
+    }
+    
+    p.HEAD-DESCRIBE {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    a.Explore, a.LogIn {
+        display: block;
+        margin: 0.8rem auto;
+        text-align: center;
+        width: 80%;
+    }
+    
+    .OtherLogIn {
+        margin-top: 1rem;
+    }
+    
+    .OtherLogIn a {
+        display: block;
+        margin: 0.5rem auto;
+        width: 60%;
+        text-align: center;
+    }
+    
+    /* Examples section */
+    section.Examples {
+        padding: 3rem 0;
+    }
+    
+    .Row {
+        margin-bottom: 2rem;
+    }
+    
+    .Row .Describe-box {
+        padding: 10px;
+    }
+    
+    h2.Ex-heading {
+        font-size: 1.4rem;
+    }
+    
+    p.Location {
+        font-size: 0.9rem;
+    }
+    
+    /* Features section */
+    section.Features {
+        padding: 3rem 0;
+    }
+    
+    div.Last-Content {
+        padding: 1.5rem;
+    }
+    
+    div.Last-Content h3 {
+        font-size: 1.2rem;
+    }
+    
+    p.Features {
+        font-size: 0.9rem;
+    }
+    
+    /* Footer */
+    .Footer {
+        padding: 2rem 0;
+    }
+    
+    .icons .fa-brands {
+        margin-right: 10px;
+        font-size: 1.5rem;
+    }
+    
+    /* About page mobile */
+    section.AboutUs {
+        padding: 2rem 0;
+    }
+    
+    .AboutUs-Head {
+        font-size: 2rem;
+    }
+    
+    .FeatRow .C {
+        padding: 5%;
+    }
+    
+    /* Contact page mobile */
+    section.Contact-Us {
+        padding: 2% 2%;
+    }
+    
+    div.Contain-Col {
+        padding: 2%;
+    }
+    
+    .Contact input {
+        height: 30px;
+    }
+    
+    .Contact textarea {
+        height: 120px;
+    }
+}
+
+/* Mobile Small (up to 575px) */
+@media (max-width: 575px) {
+    html {
+        font-size: 50%;
+    }
+    
+    .container {
+        width: 98%;
+    }
+    
+    /* Navigation */
+    li.Options1 {
+        display: inline-block;
+        padding: 0.2rem 0.5rem;
+        font-size: 0.8rem;
+    }
+    
+    a {
+        font-size: 0.8rem;
+        padding: 0.3em 0.6em;
+    }
+    
+    /* Header */
+    h1.HEAD {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin-top: 0;
+    }
+    
+    p.HEAD-DESCRIBE {
+        font-size: 0.9rem;
+    }
+    
+    a.Explore, a.LogIn {
+        width: 90%;
+        margin: 0.6rem auto;
+    }
+    
+    /* Examples */
+    .Row .Describe-box {
+        padding: 8px;
+    }
+    
+    h2.Ex-heading {
+        font-size: 1.2rem;
+    }
+    
+    p.Location {
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+    
+    a.More {
+        font-size: 0.8rem;
+        padding: 0.4em 1em;
+    }
+    
+    /* Features */
+    div.Last-Content {
+        padding: 1rem;
+    }
+    
+    div.Last-Content h3 {
+        font-size: 1rem;
+    }
+    
+    p.Features {
+        font-size: 0.8rem;
+    }
+    
+    /* About page small mobile */
+    .AboutUs-Head {
+        font-size: 1.6rem;
+    }
+    
+    .FeatRow .C {
+        padding: 3%;
+    }
+    
+    .AboutInfo h1 {
+        font-size: 1.2rem;
+    }
+    
+    .AboutInfo p {
+        font-size: 0.9rem;
+    }
+    
+    /* Contact page small mobile */
+    .ContactCol h1 {
+        font-size: 1.2rem;
+    }
+    
+    .ContactCol h2 {
+        font-size: 1rem;
+    }
+    
+    .Contact label {
+        font-size: 0.9rem;
+    }
+    
+    .Address img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+/* Landscape orientation adjustments for mobile */
+@media (max-width: 767px) and (orientation: landscape) {
+    .header1 {
+        height: 100vh;
+        min-height: 100vh;
+    }
+    
+    .header-content {
+        padding: 1rem;
+        height: calc(100vh - 80px);
+        justify-content: center;
+    }
+    
+    h1.HEAD {
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+}
+
+/* Print styles */
+@media print {
+    .Nav, .Footer, .OtherLogIn {
+        display: none;
+    }
+    
+    .header1 {
+        background: none;
+        color: black;
+    }
+    
+    h1.HEAD, p.HEAD-DESCRIBE {
+        color: black;
+    }
+}
